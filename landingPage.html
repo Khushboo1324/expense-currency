@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Financial Tools</title>
+    <link rel="stylesheet" href="landingPage.css">
+</head>
+<body>
+    <button class="btn dark-mode-btn" >🌙Dark Mode</button>
+    <div class="container">
+        
+        <header>
+            <h1 style="color: white;">Financial Tools</h1>
+            <p style="color: white;">Choose your financial management tool</p>
+        </header>
+
+    
+        <div class="cards-container">
+            
+            <div class="card" id="expense-tracker">
+                <div class="card-accent"></div>
+                <div class="card-content">
+                    <div class="icon-container green">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="14" x="2" y="5" rx="2"/><line x1="2" x2="22" y1="10" y2="10"/></svg>
+                    </div>
+                    <h2>Budget & Expense Tracker</h2>
+                    <p>Track your daily expenses and gain insights into your spending habits</p>
+                    <button  onclick="window.location.href='index.html'" class="btn btn-green budgetBtn">Get Started</button>
+                </div>
+            </div>
+
+           
+            <div class="card" id="currency-converter">
+                <div class="card-accent"></div>
+                <div class="card-content">
+                    <div class="icon-container blue">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m5 7 5 5-5 5"/><path d="m19 7-5 5 5 5"/></svg>
+                    </div>
+                    <h2>Currency Converter</h2>
+                    <p>Convert between different currencies with real-time exchange rates</p>
+                    <button onclick="window.location.href='currency.html'"  class="btn btn-blue currBtn">Get Started</button>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <p>© Made by khushboo with lots of ❤️.</p>
+        </footer>
+    </div>
+
+    <script src="landingPage.js"></script>
+</body>
+</html>
